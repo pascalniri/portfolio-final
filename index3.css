@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+}
+.profile{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.profile img{
+    border-radius: 20px;
+}
+.profile h1{
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+    color: white;
+    background-color: transparent;
+}
+.profile p{
+    margin-top: 20px;
+    color: rgb(255, 145, 0);
+    background-color: transparent;
+}
+.intro{
+    margin-left: 300px;
+    margin-top: 50px;
+    height: 400px;
+    width: 450px;
+   
+}
+.intro h1{
+    color: white;
+}
+.intro p{
+    color: white;
+    background-color: transparent;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+.intro a{
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+}
+.intro input{
+    color: white;
+    border: 1px solid rgb(255, 145, 0);
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+.alone h1{
+    color: white;
+    font-size: 6em;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.sub-container{
+    height: 300px;
+    width: 250px;
+    background:linear-gradient(black, rgb(255, 145, 0));
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sub-container h1{
+    background-color: transparent;
+    margin-top: 30px;
+}
+.sub-container i{
+    background-color: transparent;
+}
+.sub-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 30px 10px;
+    background-color: transparent;
+}
